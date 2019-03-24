@@ -7,6 +7,7 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 
 import UI_Components.LoginComponent;
+import cucumber.api.java.*;
 import UI_Components.FlightFinder;
 
 public class AbstractTest 
@@ -22,7 +23,7 @@ public class AbstractTest
 		Flightfinder = new FlightFinder();
 	}
 	
-	@BeforeTest
+	@Before
 	public void setUpEnvironment()
 	{
 		System.setProperty("webdriver.chrome.driver", "G:\\Selenium Class files\\chromedriver_win32\\chromedriver.exe");
