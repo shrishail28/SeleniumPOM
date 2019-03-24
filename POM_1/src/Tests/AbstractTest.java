@@ -9,7 +9,6 @@ import org.testng.annotations.BeforeTest;
 import UI_Components.LoginComponent;
 import UI_Components.FlightFinder;
 
-
 public class AbstractTest 
 {
 	
